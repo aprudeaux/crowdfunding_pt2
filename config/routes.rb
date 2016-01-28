@@ -1,47 +1,48 @@
 Rails.application.routes.draw do
-  get 'pages/about'
+  
+  root 'pages#home'
+  
+  get 'about' => 'pages#about'
 
-  get 'pages/case_studies'
+  get 'case_studies' => 'pages#case_studies'
 
-  get 'pages/events'
+  get 'events' => 'pages#events'
 
-  get 'pages/faqs'
+  get 'faqs' => 'pages#faqs'
 
-  get 'pages/home'
+  get 'how_to_invest' => 'pages#how_to_invest'
 
-  get 'pages/how_to_invest'
+  get 'invest' => 'pages#invest'
 
-  get 'pages/invest'
+  get 'investment_account' => 'pages#investment_account'
 
-  get 'pages/investment_account'
+  get 'investment_authorization' => 'pages#investment_authorization'
 
-  get 'pages/investment_authorization'
+  get 'join' => 'pages#join'
 
-  get 'pages/join'
+  get 'learn' => 'pages#learn'
 
-  get 'pages/learn'
+  get 'meet_the_pros' => 'pages#meet_the_pros'
 
-  get 'pages/meet_the_pros'
+  get 'playbook' => 'pages#playbook'
 
-  get 'pages/playbook'
+  get 'portfolio' => 'pages#portfolio'
 
-  get 'pages/portfolio'
+  get 'privacy_policy' => 'pages#privacy_policy'
 
-  get 'pages/privacy_policy'
+  get 'pro' => 'pages#pro'
 
-  get 'pages/pro'
+  get 'raise_capital' => 'pages#raise_capital'
 
-  get 'pages/raise_capital'
+  get 'referral_fee_terms' => 'pages#referral_fee_terms'
 
-  get 'pages/referral_fee_terms'
+  get 'risk_warning' => 'pages#risk_warning'
 
-  get 'pages/risk_warning'
+  get 'search' => 'pages#search'
 
-  get 'pages/search'
+  get 'terms_of_service' => 'pages#terms_of_service'
 
-  get 'pages/terms_of_service'
-
-  get 'pages/you'
+  get 'you' => 'pages#you'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
