@@ -17,6 +17,7 @@ gem 'rails_12factor', group: :production
 gem 'pg', group: :production
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'font-awesome-sass', '~> 4.5.0'
+gem 'devise'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
