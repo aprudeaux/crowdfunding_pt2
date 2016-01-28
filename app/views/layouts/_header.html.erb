@@ -1,0 +1,27 @@
+  	<div class="navbar">
+  		<div class="navbar-header">
+  			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+  				<span class="sr-only"></span>
+  				<span class="icon-bar"></span>
+  				<span class="icon-bar"></span>
+  				<span class="icon-bar"></span>
+  			</button>
+  			<a class="navbar-brand" href="/"><%= image_tag("logo_md.png",  :alt => "PeerPoint Logo") %></a>	
+  		</div>
+  		
+  		<div class="collapse navbar-collapse" id="navbar-collapse">
+  			<ul class="nav navbar-nav">
+  				<li><%=link_to "Invest", invest_path %></li>
+  				<li> </li>
+  				<li><%=link_to "Raise", raise_capital_path %></li>
+  				<li> </li>
+  				<li><%=link_to "How it Works", how_to_invest_path %></li>
+  			</ul>
+  			<ul class="nav navbar-nav navbar-right">
+  			    <li><%= link_to "Sign Up", "#", class: "btn btn-lg" %></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+  		</div>
+  	</div>	
+  	
+  
