@@ -1,26 +1,56 @@
-<h2>Log in</h2>
+<div class="welcome">
+<h1 class="greet">Welcome Back!</h1>
+  <div class="container">
+ 	<br>
+ 	<br>
+ 	<br>	 
+ 			<div class="row">
+ 			  <div class="leftnav col-md-4 col-md-offset-2">
+<h4>Log In with Email</h4>
 
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
-  <div class="field">
-    <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true %>
+  <div class="form-group">
+    <%= f.label :email %>
+    <%= f.email_field :email, autofocus: true, class: "form-control" %>
   </div>
 
-  <div class="field">
-    <%= f.label :password %><br />
-    <%= f.password_field :password, autocomplete: "off" %>
+  <div class="form-group">
+    <%= f.label :password %>
+    <%= f.password_field :password, autocomplete: "off", class: "form-control" %>
   </div>
 
   <% if devise_mapping.rememberable? -%>
-    <div class="field">
+    <div class="form-group">
       <%= f.check_box :remember_me %>
       <%= f.label :remember_me %>
     </div>
   <% end -%>
 
   <div class="actions">
-    <%= f.submit "Log in" %>
+    <%= f.submit "Log in", class: "btn btn-success btn-block btn-lg" %>
   </div>
 <% end %>
 
+<p>Not a member yet? Sign up HERE</p>
+<p>Forgot your password? Click HERE to reset</p>
 <%= render "devise/shared/links" %>
+</div><!--close left nav-->
+            <div class="middle">  
+              	<span><strong> - OR - </strong></span>
+              </div>     
+ 				<div class="rightnav col-md-4">
+ 					<h4>Log In with Social Account</h4>
+ 				<div class="social-auth-links text-center">
+          			<button type="submit" class="btn btn-block  btn-primary"><i class="fa fa-facebook"></i> Sign up using Facebook</button>
+          		<br />
+          			<button type="submit" class="btn btn-block  btn-danger"><i class="fa fa-google-plus"></i> Sign up using Google+</button>
+          		<br />
+          			<button type="submit" class="btn btn-block  btn-primary"><i class="fa fa-linkedin"></i> Sign up using LinkedIN</button>
+        		</div>
+ 				</div>
+       </div>
+</div><!--close row-->
+</div><!--close container-->
+</div><!--close welcome-->
+
+        

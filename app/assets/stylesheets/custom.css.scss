@@ -17,6 +17,20 @@ ul.nav li.active a {
 ul.nav li {
         font-family: 'Lato', sans-serif;
 }
+ul.foothead li a, ul.foothead li a:visited {
+    color: #fff !important;
+}
+
+ul.foothead li a:hover, ul.foothead li a:active {
+    color: #384853 !important;
+}
+
+ul.foothead li.active a {
+    color: #fff !important;
+}
+ul.foothead li {
+        font-family: 'Lato', sans-serif;
+}
 
 
 
@@ -271,4 +285,11 @@ ul.nav li {
 .cta4{
         height: 400px;
     
+}
+.greet {
+        text-align: center;
+}
+.welcome {
+        padding-top: 50px;
+        padding-bottom: 100px;
 }
