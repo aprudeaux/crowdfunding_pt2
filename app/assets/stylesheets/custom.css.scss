@@ -3,18 +3,17 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
-ul.nav li a, ul.nav li a:visited {
+/* make the navbar links white */
+ul.navbar-nav li a, ul.nav li a:visited {
     color: #fff !important;
 }
-
-ul.nav li a:hover, ul.nav li a:active {
+ul.navbar-nav li a:hover, ul.nav li a:active {
     color: #384853 !important;
 }
-
-ul.nav li.active a {
+ul.navbar-nav li.active a {
     color: #fff !important;
 }
-ul.nav li {
+ul.navbar-nav li {
         font-family: 'Lato', sans-serif;
 }
 ul.foothead li a, ul.foothead li a:visited {
@@ -32,9 +31,7 @@ ul.foothead li {
         font-family: 'Lato', sans-serif;
 }
 
-
-
-
+/*control color of footer links*/
 .footer {
   		background-color: #efefef;
   		height: 100%;
@@ -47,7 +44,9 @@ ul.foothead li {
   }
 .foothead strong {
                 font-size: 1.3em;
-}  
+} 
+
+/**/
 
 .hero1 {
         padding-left:50px;
@@ -63,22 +62,27 @@ ul.foothead li {
 }
 
 .hero2 {
-        text-align: center;
         
+        padding-top: 30px;
 }
 .hero2 h1 {
         font-size: 3.5em;
         font-family: 'Lato', sans-serif;
-        font-weight: strong;     
+        font-weight: strong;
+        text-align: center;
 }
-.hero2 p {
-        font-size: 1.3em;
-}
+
 .hero2 .row {
-        padding: 30px 0;
+        padding: 50px 0;
+        text-align: center;
 }
 .hero2 h2 p {
         font-family: 'Lato', sans-serif;
+}
+.hero2 p {
+        font-size: 1.3em;
+        text-align: center;
+        
 }
 .hero5 {
         text-align: center;
@@ -89,9 +93,6 @@ ul.foothead li {
         font-size: 2.5em;
         font-family: 'Lato', sans-serif;
         font-weight: strong;     
-}
-.midbar {
-        
 }
 .hero3 {    padding-left:50px;
             padding-top: 120px;
@@ -110,11 +111,6 @@ ul.foothead li {
 }          
 .hero4 .row {
             padding: 50px 30px 30px;
-           
-
-}
-.lead {
-        font-size: 2em;
 }
 .pros {
         padding-left:50px;
@@ -138,6 +134,7 @@ ul.foothead li {
         height: 500px;
         background-color: #2C363F;
         color: #fff;
+        text-align: justified;
 }
 .test1 p {
         font-size: 1.5em;
@@ -169,13 +166,14 @@ ul.foothead li {
 }
 .success {
         height: 525px;
+        padding-bottom: 50px;
 }
 .cover1 {
         height: 675px;
         width: 100%;
         background-color: #6A7D83;
         color: #fff;
-        margin-top: -75px;
+        margin-top: -10%;
 }
 .cover2 {
         height: 400px;
