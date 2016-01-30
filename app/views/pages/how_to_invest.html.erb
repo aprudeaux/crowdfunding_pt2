@@ -31,23 +31,25 @@
     <div class="row">
       <div class="col-md-4 img">
         <%= image_tag("img1.png",  :alt => "Responsive image") %>  
-        <h3>Discover businesses</h3>
+        <h4>Discover businesses</h4>
         <p>It's simple for anyone to sign up.  Once your investor profile is complete you'll be able to access all campaigns, ask entrepreneurs questions, request further information and invest.</p>
       </div> 
       <div class="col-md-4">
        <%= image_tag("img2.png",  :alt => "Responsive image") %>  
-        <h3>Start investing</h3>
+        <h4>Start investing</h4>
         <p>To invest, choose the amount and securely pay for your investment by debit card or back transfer.  It's simple to create a diversified portfolio of investments to spread your exposure to risk.</p>
       </div>
       <div class="col-md-4">
         <%= image_tag("img3.png",  :alt => "Responsive image") %>  
-        <h3>Start investing</h3>
-        <p>To invest, choose the amount and securely pay for your investment by debit card or back transfer.  It's simple to create a diversified portfolio of investments to spread your exposure to risk.</p>
-      </div><br><br>  
-        <div>
-        <p>Learn more about <a href="#">becoming an investor ></a>
-        </div>
-    </div><!--close row-->
+        <h4>Share the success</h4>
+        <p>Become a legal, preferred shareholder when the round closes.  Receive regular updates and engage with each business through PeerPoint or offline.  If the business does well you'll receive a return on your investment. </p>
+      </div>  
+        
+    </div><!--close row--> 
+    <div class="bt">
+        <p>Learn more about <%= link_to "becoming an investor" , learn_path %> <i class="fa fa-angle-right"></i></p>
+      </div>  
+    
 </div><!--close container-->
 </div>
 
@@ -73,7 +75,7 @@
         <p>Invest in a business now and your investment will convert, at a discount to other investors, in the future.</p>
     </div>
 </div><!--end row-->
-        <br><br><br>
+        <br>
         <p>Learn more about <a href="#">types of equity ></a></p>
 </div>    
     
@@ -113,7 +115,7 @@
 <div class="container">    
 <h1>We've got you covered</h1>
 <p>Investing in early-stage businesses involve risk, but our team<br>goes to great lengths to ensure that each investor gets the <br>best investor protections and can share in business success.</p>
-
+<br><br><br>
 <div class="row ">
     <div class="col-md-4">
          <span class="fa fa-money" aria-hidden="true"></span>
@@ -190,7 +192,7 @@
 <!--Call to action-->
 <div class="cta2">
 	<p>Develop your portfolio of diverse, ambitious<br>businesses you believe in.</p>
-	<%= link_to "START INVESTING" , invest_path, class:'btn btn-success btn-lg' %>
+	<%= link_to "START INVESTING" , join_path, class:'btn btn-success btn-lg' %>
 
 </div>
 
