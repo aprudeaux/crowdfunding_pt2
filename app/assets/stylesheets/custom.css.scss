@@ -227,6 +227,13 @@ ul.foothead li {
 .box800 .row {
         padding: 10px 20px;
 }
+.box801 {
+        height: 800px;
+        background-color: #F3F4F5;
+}
+.box801 .row {
+        padding: 10px 20px;
+}
 .pros {
         height: 400px;
         background-color: #C89490;
@@ -350,4 +357,29 @@ ul.foothead li {
 }
 .callout li {
         font-size: 1.2em;
+}
+.cover4 {
+        background-color: #F3F4F5;
+}
+
+.fees .panel-body {
+        
+        text-align: left;
+        
+}
+.fees .panel-body .fa {
+        font-size: 1.2em;
+}
+.fees ul {
+        list-style-type: none;
+}
+.fees .panel-heading {
+        background-color: #D1E8FF;
+}
+.fees.irate {
+        font-size: 3em;
+        color: #1D8FFF;
+}
+.fees .panel-body {
+        border: 2px #1D8FFF;
 }

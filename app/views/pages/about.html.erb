@@ -1,4 +1,4 @@
-<div class="container">
+
 <div class="hero6 cover3">
 <h1>About PeerPoint</h1>
 <p class="lead">We make it simple to invest in the businesses you believe in and share<br> in their success</p>
@@ -10,11 +10,11 @@
 <h1>Our Mission</h1>
 <p>We let all types of investors invest in businesses they believe in<br> and share in their success.  We let all types of growth-focused<br> businesses raise capital and business community in the process.</p>
 <p>We do all of this through a simple, highly professional, online <br>process that protects and empowers investors while helping<br> businesses grow and generate returns.</p>
-<p>We are Equity Crowdfunding done right!</p>
+<p><strong>We are Equity Crowdfunding done right!</p></strong>
 </div>
 
 <!--Advisors-->
-<div class="hero2 box800">
+<div class="hero2 box801">
 	<div class="container">
 	<h1>Advisors</h1>
 	<p>We're proud to have the support of a world-class Advisory Board.</p>
@@ -237,16 +237,17 @@
 
 
 <!--Press-->
-<div class="hero2 box700">
+<div class="hero2 cover4">
 <h1>Press</h1>
-<p>Journalists and bloggers, please email press@peerpointcapital.com for interview, quote and media requests.</p>
+<p>Journalists and bloggers, please email <%= mail_to "press@peerpointcapital.com", "press@peerpointcapital.com" %>  for <br>interview, quote and media requests.</p>
 </div>
 
 <!--Contact-->
 <div class="hero2">
 <h1>Get in touch</h1>
 <p>If you have any questions or would like more information about PeerPoint, we'd love to hear from you.</p>
-<%= link_to "CONTACT US" , join_path, class:'btn btn-success btn-lg' %>
+<%= mail_to "info@peerpointcapital.com", "CONTACT US", class:'btn btn-success btn-lg' %>
+
 
 </div>
 
@@ -257,4 +258,4 @@
     <p>Investing in early-stage businesses is extremely risky, and is not for everyone.  If you choose to invest in businesses displayed on peerpointcapital.com, you need to be aware and accept that (1) it is significantly more likely than not that you will lose some or all of the money you invest, (2) you will likely be unable to sell you investment, (3) even if the business is successful, you will be unlikely to receive any cash return on your investment for many years, (4) ordinary events in the life of the bsuiness can cause your percentage ownership in the business to decrease, and (5) if you choose to invest in early-stage businesses, you should do so only in the context of a broader investment strategy whereby the vast majority of your investable capital is placed in safer, more liquid assets.  For more information regarding the risks associated with early stage investments, please read ou <%= link_to "Risk Warning" , risk_warning_path %>></p>
     <p>This page has been approved as a financial promotion of the PeerPoint platform by PeerPoint Capital, Inc, which is authorized and regulated by [regulatory agency].  It is not intended to be a promotion of any individual investment opportunity, and the summary information provided about investment opportunities in intended solely to demonstrate the types of investments available through PeerPoint.  Any investment decision should be made solely on the basis of the listing for that particular investment opportunity.  Full listings are available to authorized investors only.</p>
 </div>    
-</div><!--end container-->
+
