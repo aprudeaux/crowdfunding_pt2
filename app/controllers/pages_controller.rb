@@ -64,4 +64,8 @@ class PagesController < ApplicationController
 
   def you
   end
+  
+  def you_entrepreneur
+  end  
+  
 end

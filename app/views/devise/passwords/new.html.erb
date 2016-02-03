@@ -9,9 +9,9 @@
 
   <div class="form-group">
     <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true, class: "form-control" %>
+    <%= f.email_field :email, autofocus: true, class: "form-control form-control-feedback glyphicon glyphicon-user" %>
+    <span class="glyphicon glyphicon-user form-control-feedback"></span>
   </div>
-
   <div class="actions">
     <%= f.submit "Send me reset password instructions", class:"btn btn-primary btn-block btn-lg" %>
   </div>
@@ -22,4 +22,3 @@
 </div>
 </div>
 
-<

@@ -16,6 +16,20 @@ ul.navbar-nav li.active a {
 ul.navbar-nav li {
         font-family: 'Lato', sans-serif;
 }
+/* make the navbar links black */
+ul.navbfont li a, ul.nav li a:visited {
+    color: #000 !important;
+}
+ul.navfont li a:hover, ul.nav li a:active {
+    color: #000 !important;
+}
+ul.navfont li.active a {
+    color: #000 !important;
+}
+ul.navbar-nav li {
+        font-family: 'Lato', sans-serif;
+}
+
 ul.foothead li a, ul.foothead li a:visited {
     color: #fff !important;
 }
@@ -240,7 +254,6 @@ ul.foothead li {
 }
 .navbar {
     background:transparent;
-    
 }
 .imgbar {
         padding: 50px 0;
@@ -390,3 +403,31 @@ ul.foothead li {
 		margin-right: 5px;
 		font-size: 1.5em;
 	}
+.events {
+        background-image: image-url("speakers.jpg");
+        background-size: cover;
+        padding-left:65%;
+        padding-top: 100px;
+        font-family: 'Lato', sans-serif;
+        height: 500px;
+        color: #fff;
+        margin-top: -8%;
+}
+.events h1 {
+        font-size: 5em;
+}
+.events p {
+        font-size: 2.5em;
+}
+.eventsBox h1 {
+        text-align: center;
+        height: 400px;
+}
+.better {
+        text-align: center;
+        padding-top: 30px;
+        
+}
+.better h1 {
+        font-size: 3.5em;
+}

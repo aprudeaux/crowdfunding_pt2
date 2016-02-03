@@ -44,6 +44,8 @@ Rails.application.routes.draw do
   get 'terms_of_service' => 'pages#terms_of_service'
 
   get 'you' => 'pages#you'
+  
+  get 'you_entrepreneur' => 'pages#you_entrepreneur'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
